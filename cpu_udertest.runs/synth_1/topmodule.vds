@@ -1,0 +1,849 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Mar  1 11:48:31 2023
+# Process ID: 1668
+# Current directory: C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.runs/synth_1
+# Command line: vivado.exe -log topmodule.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source topmodule.tcl
+# Log file: C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.runs/synth_1/topmodule.vds
+# Journal file: C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source topmodule.tcl -notrace
+Command: synth_design -top topmodule -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 5464 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 837.090 ; gain = 177.637
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'topmodule' [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/topmodule.v:1]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/topmodule.v:22]
+INFO: [Synth 8-6157] synthesizing module 'ila_1' [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.runs/synth_1/.Xil/Vivado-1668-LOKESH/realtime/ila_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ila_1' (1#1) [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.runs/synth_1/.Xil/Vivado-1668-LOKESH/realtime/ila_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'keyboard_seq' [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/keyboard_seq.v:26]
+INFO: [Synth 8-6157] synthesizing module 'bin2hex' [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/bin2hex.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'bin2hex' (2#1) [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/bin2hex.v:1]
+INFO: [Synth 8-6157] synthesizing module 'PS2Receiver' [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/PS2Receiver.v:23]
+INFO: [Synth 8-6157] synthesizing module 'debouncer' [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/debouncer.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'debouncer' (3#1) [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/debouncer.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/PS2Receiver.v:53]
+INFO: [Synth 8-6155] done synthesizing module 'PS2Receiver' (4#1) [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/PS2Receiver.v:23]
+INFO: [Synth 8-6157] synthesizing module 'sequence_detect' [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/sequence_detect.v:23]
+	Parameter s0 bound to: 5'b00000 
+	Parameter s1 bound to: 5'b00001 
+	Parameter s2 bound to: 5'b00010 
+	Parameter s3 bound to: 5'b00011 
+	Parameter s4 bound to: 5'b00100 
+	Parameter s5 bound to: 5'b00101 
+	Parameter s6 bound to: 5'b00110 
+	Parameter s7 bound to: 5'b00111 
+	Parameter s8 bound to: 5'b01000 
+	Parameter s9 bound to: 5'b01001 
+	Parameter s10 bound to: 5'b01010 
+	Parameter s11 bound to: 5'b01011 
+	Parameter s12 bound to: 5'b01100 
+	Parameter s13 bound to: 5'b01101 
+	Parameter s14 bound to: 5'b01110 
+	Parameter s15 bound to: 5'b01111 
+	Parameter s16 bound to: 5'b10000 
+	Parameter s17 bound to: 5'b10001 
+	Parameter s18 bound to: 5'b10010 
+	Parameter s19 bound to: 5'b10011 
+	Parameter s20 bound to: 5'b10100 
+	Parameter s21 bound to: 5'b10101 
+	Parameter s22 bound to: 5'b10110 
+	Parameter s23 bound to: 5'b10111 
+	Parameter s24 bound to: 5'b11000 
+INFO: [Synth 8-251] yes [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/sequence_detect.v:42]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/sequence_detect.v:44]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/sequence_detect.v:43]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/sequence_detect.v:157]
+WARNING: [Synth 8-6014] Unused sequential element i_reg was removed.  [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/sequence_detect.v:31]
+WARNING: [Synth 8-6014] Unused sequential element clk_d_reg was removed.  [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/sequence_detect.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'sequence_detect' (5#1) [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/sequence_detect.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ascii2char' [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/ascii2char.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ascii2char' (6#1) [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/ascii2char.v:23]
+WARNING: [Synth 8-689] width (4) of port connection 'char' does not match port width (8) of module 'ascii2char' [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/keyboard_seq.v:91]
+WARNING: [Synth 8-689] width (4) of port connection 'char' does not match port width (8) of module 'ascii2char' [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/keyboard_seq.v:92]
+WARNING: [Synth 8-689] width (4) of port connection 'char' does not match port width (8) of module 'ascii2char' [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/keyboard_seq.v:93]
+WARNING: [Synth 8-689] width (4) of port connection 'char' does not match port width (8) of module 'ascii2char' [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/keyboard_seq.v:94]
+INFO: [Synth 8-6157] synthesizing module 'scan2ascii' [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/scan2ascii.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'scan2ascii' (7#1) [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/scan2ascii.v:23]
+INFO: [Synth 8-6157] synthesizing module 'seven' [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/seven.v:23]
+	Parameter ZERO bound to: 8'b00000011 
+	Parameter ONE bound to: 8'b10011111 
+	Parameter TWO bound to: 8'b00100101 
+	Parameter THREE bound to: 8'b00001101 
+	Parameter FOUR bound to: 8'b10011001 
+	Parameter FIVE bound to: 8'b01001001 
+	Parameter SIX bound to: 8'b01000001 
+	Parameter SEVEN bound to: 8'b00011111 
+	Parameter EIGHT bound to: 8'b00000001 
+	Parameter NINE bound to: 8'b00001001 
+	Parameter A bound to: 8'b00010001 
+	Parameter B bound to: 8'b11000001 
+	Parameter C bound to: 8'b01100011 
+	Parameter D bound to: 8'b10000101 
+	Parameter E bound to: 8'b01100001 
+	Parameter F bound to: 8'b01110001 
+INFO: [Synth 8-6155] done synthesizing module 'seven' (8#1) [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/seven.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'keyboard_seq' (9#1) [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/keyboard_seq.v:26]
+INFO: [Synth 8-6157] synthesizing module 'Mips' [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/Mips.v:1]
+INFO: [Synth 8-6157] synthesizing module 'datapath' [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/datapath.v:1]
+INFO: [Synth 8-6157] synthesizing module 'pc' [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/pc.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'pc' (10#1) [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/pc.v:1]
+INFO: [Synth 8-6157] synthesizing module 'alu' [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/alu.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'alu' (11#1) [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/alu.v:1]
+INFO: [Synth 8-6157] synthesizing module 'regFile' [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/regFile.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'regFile' (12#1) [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/regFile.v:1]
+INFO: [Synth 8-6157] synthesizing module 'signExtend' [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/signExtend.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'signExtend' (13#1) [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/signExtend.v:1]
+INFO: [Synth 8-6157] synthesizing module 'adder' [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/adder.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'adder' (14#1) [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/adder.v:1]
+INFO: [Synth 8-6157] synthesizing module 'shiftLeft' [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/shiftLeft.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'shiftLeft' (15#1) [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/shiftLeft.v:1]
+INFO: [Synth 8-6157] synthesizing module 'mux' [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/mux.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'mux' (16#1) [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/mux.v:1]
+WARNING: [Synth 8-689] width (5) of port connection 'out' does not match port width (32) of module 'mux' [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/datapath.v:106]
+INFO: [Synth 8-6155] done synthesizing module 'datapath' (17#1) [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/datapath.v:1]
+INFO: [Synth 8-6157] synthesizing module 'control' [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/control.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'control' (18#1) [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/control.v:1]
+INFO: [Synth 8-6157] synthesizing module 'aluControl' [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/aluControl.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'aluControl' (19#1) [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/aluControl.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Mips' (20#1) [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/Mips.v:1]
+INFO: [Synth 8-6157] synthesizing module 'top' [C:/Users/lokes/Videos/VLSI/F0ZMJ77IJSV3B4A/text_display/text_display.srcs/sources_1/new/top.v:3]
+INFO: [Synth 8-6157] synthesizing module 'vga_controller' [C:/Users/lokes/Videos/VLSI/F0ZMJ77IJSV3B4A/text_display/text_display.srcs/sources_1/new/vga_controller.v:21]
+	Parameter HD bound to: 640 - type: integer 
+	Parameter HF bound to: 48 - type: integer 
+	Parameter HB bound to: 16 - type: integer 
+	Parameter HR bound to: 96 - type: integer 
+	Parameter HMAX bound to: 799 - type: integer 
+	Parameter VD bound to: 480 - type: integer 
+	Parameter VF bound to: 10 - type: integer 
+	Parameter VB bound to: 33 - type: integer 
+	Parameter VR bound to: 2 - type: integer 
+	Parameter VMAX bound to: 524 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'vga_controller' (21#1) [C:/Users/lokes/Videos/VLSI/F0ZMJ77IJSV3B4A/text_display/text_display.srcs/sources_1/new/vga_controller.v:21]
+INFO: [Synth 8-6157] synthesizing module 'ascii_test' [C:/Users/lokes/Videos/VLSI/F0ZMJ77IJSV3B4A/text_display/text_display.srcs/sources_1/new/ascii_test.v:9]
+INFO: [Synth 8-6157] synthesizing module 'ascii_rom' [C:/Users/lokes/Videos/VLSI/F0ZMJ77IJSV3B4A/text_display/text_display.srcs/sources_1/new/ascii_rom.v:23]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "block" *) [C:/Users/lokes/Videos/VLSI/F0ZMJ77IJSV3B4A/text_display/text_display.srcs/sources_1/new/ascii_rom.v:31]
+WARNING: [Synth 8-151] case item 11'b11000111111 is unreachable [C:/Users/lokes/Videos/VLSI/F0ZMJ77IJSV3B4A/text_display/text_display.srcs/sources_1/new/ascii_rom.v:37]
+WARNING: [Synth 8-151] case item 11'b11011001010 is unreachable [C:/Users/lokes/Videos/VLSI/F0ZMJ77IJSV3B4A/text_display/text_display.srcs/sources_1/new/ascii_rom.v:37]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/lokes/Videos/VLSI/F0ZMJ77IJSV3B4A/text_display/text_display.srcs/sources_1/new/ascii_rom.v:37]
+INFO: [Synth 8-6155] done synthesizing module 'ascii_rom' (22#1) [C:/Users/lokes/Videos/VLSI/F0ZMJ77IJSV3B4A/text_display/text_display.srcs/sources_1/new/ascii_rom.v:23]
+WARNING: [Synth 8-567] referenced signal 'x' should be on the sensitivity list [C:/Users/lokes/Videos/VLSI/F0ZMJ77IJSV3B4A/text_display/text_display.srcs/sources_1/new/ascii_test.v:41]
+WARNING: [Synth 8-567] referenced signal 'y' should be on the sensitivity list [C:/Users/lokes/Videos/VLSI/F0ZMJ77IJSV3B4A/text_display/text_display.srcs/sources_1/new/ascii_test.v:41]
+INFO: [Synth 8-6155] done synthesizing module 'ascii_test' (23#1) [C:/Users/lokes/Videos/VLSI/F0ZMJ77IJSV3B4A/text_display/text_display.srcs/sources_1/new/ascii_test.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'top' (24#1) [C:/Users/lokes/Videos/VLSI/F0ZMJ77IJSV3B4A/text_display/text_display.srcs/sources_1/new/top.v:3]
+WARNING: [Synth 8-689] width (8) of port connection 'print' does not match port width (7) of module 'top' [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/topmodule.v:48]
+INFO: [Synth 8-6157] synthesizing module 'instMem' [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:1]
+INFO: [Synth 8-251] test value 1 [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:44]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:42]
+INFO: [Synth 8-251] test value 2 [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:125]
+WARNING: [Synth 8-567] referenced signal 'char_op1' should be on the sensitivity list [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:30]
+WARNING: [Synth 8-567] referenced signal 'char_op2' should be on the sensitivity list [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:30]
+WARNING: [Synth 8-3848] Net rom[21] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[22] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[23] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[24] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[25] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[26] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[27] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[28] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[29] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[30] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[31] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[32] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[33] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[34] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[35] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[36] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[37] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[38] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[39] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[40] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[41] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[42] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[43] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[44] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[45] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[46] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[47] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[48] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[49] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[50] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[51] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[52] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[53] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[54] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[55] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[56] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[57] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[58] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[59] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[60] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[61] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[62] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[63] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[64] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[65] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[66] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[67] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[68] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[69] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[70] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[71] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[72] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[73] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[74] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[75] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[76] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[77] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[78] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[79] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[80] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[81] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[82] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[83] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[84] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[85] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[86] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[87] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[88] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[89] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[90] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[91] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[92] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[93] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[94] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[95] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[96] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[97] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[98] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[99] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'instMem' (25#1) [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:1]
+INFO: [Synth 8-6157] synthesizing module 'dataMem' [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/dataMem.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'dataMem' (26#1) [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/dataMem.v:1]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 't1'. This will prevent further optimization [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/topmodule.v:36]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'i1'. This will prevent further optimization [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/topmodule.v:50]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'your_instance_name'. This will prevent further optimization [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/topmodule.v:22]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'dm1'. This will prevent further optimization [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/topmodule.v:60]
+INFO: [Synth 8-6155] done synthesizing module 'topmodule' (27#1) [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/topmodule.v:1]
+WARNING: [Synth 8-3331] design instMem has unconnected port clk
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 909.324 ; gain = 249.871
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 909.324 ; gain = 249.871
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 909.324 ; gain = 249.871
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/ip/ila_1/ila_1/ila_1_in_context.xdc] for cell 'your_instance_name'
+Finished Parsing XDC File [c:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/ip/ila_1/ila_1/ila_1_in_context.xdc] for cell 'your_instance_name'
+Parsing XDC File [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/constrs_1/new/myconst.xdc]
+WARNING: [Vivado 12-584] No ports matched 'outp[3]'. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/constrs_1/new/myconst.xdc:89]
+WARNING: [Vivado 12-584] No ports matched 'outp[2]'. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/constrs_1/new/myconst.xdc:90]
+WARNING: [Vivado 12-584] No ports matched 'outp[1]'. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/constrs_1/new/myconst.xdc:91]
+WARNING: [Vivado 12-584] No ports matched 'outp[0]'. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/constrs_1/new/myconst.xdc:92]
+WARNING: [Vivado 12-584] No ports matched 'outp[3]'. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/constrs_1/new/myconst.xdc:105]
+WARNING: [Vivado 12-584] No ports matched 'outp[2]'. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/constrs_1/new/myconst.xdc:106]
+WARNING: [Vivado 12-584] No ports matched 'outp[1]'. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/constrs_1/new/myconst.xdc:107]
+WARNING: [Vivado 12-584] No ports matched 'outp[0]'. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/constrs_1/new/myconst.xdc:108]
+WARNING: [Vivado 12-584] No ports matched 'ready'. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/constrs_1/new/myconst.xdc:122]
+WARNING: [Vivado 12-584] No ports matched 'ready'. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/constrs_1/new/myconst.xdc:123]
+Finished Parsing XDC File [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/constrs_1/new/myconst.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/constrs_1/new/myconst.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/topmodule_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/constrs_1/new/myconst.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/topmodule_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/topmodule_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1052.000 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.032 . Memory (MB): peak = 1052.000 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 1052.000 ; gain = 392.547
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 1052.000 ; gain = 392.547
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for your_instance_name. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 1052.000 ; gain = 392.547
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "prog" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ready" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "char" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ALUOp" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "rom" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "rom" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "rom" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "rom" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "rom" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "rom" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "rom" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "rom" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "rom" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "rom" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "rom" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+WARNING: [Synth 8-327] inferring latch for variable 'data_reg' [C:/Users/lokes/Videos/VLSI/F0ZMJ77IJSV3B4A/text_display/text_display.srcs/sources_1/new/ascii_rom.v:40]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:14 . Memory (MB): peak = 1052.000 ; gain = 392.547
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 3     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     17 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 2     
+	   2 Input      5 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
+	   2 Input      1 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 134   
+	               17 Bit    Registers := 1     
+	               12 Bit    Registers := 1     
+	               11 Bit    Registers := 2     
+	               10 Bit    Registers := 4     
+	                8 Bit    Registers := 6     
+	                5 Bit    Registers := 3     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 10    
++---Multipliers : 
+	                32x32  Multipliers := 1     
++---ROMs : 
+	                              ROMs := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 9     
+	   8 Input     32 Bit        Muxes := 2     
+	   9 Input     32 Bit        Muxes := 3     
+	   9 Input     29 Bit        Muxes := 3     
+	   2 Input     28 Bit        Muxes := 1     
+	   8 Input     28 Bit        Muxes := 1     
+	   9 Input     26 Bit        Muxes := 1     
+	   9 Input     21 Bit        Muxes := 1     
+	   2 Input     17 Bit        Muxes := 1     
+	   9 Input     16 Bit        Muxes := 2     
+	   2 Input     12 Bit        Muxes := 1     
+	  32 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   9 Input      7 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 16    
+	   6 Input      5 Bit        Muxes := 1     
+	   3 Input      5 Bit        Muxes := 11    
+	   4 Input      5 Bit        Muxes := 3     
+	   2 Input      4 Bit        Muxes := 12    
+	   3 Input      4 Bit        Muxes := 5     
+	  10 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 4     
+	   3 Input      3 Bit        Muxes := 2     
+	   7 Input      3 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   7 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 50    
+	   3 Input      1 Bit        Muxes := 2     
+	  12 Input      1 Bit        Muxes := 2     
+	   6 Input      1 Bit        Muxes := 1     
+	  26 Input      1 Bit        Muxes := 5     
+	  10 Input      1 Bit        Muxes := 2     
+	   7 Input      1 Bit        Muxes := 7     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module debouncer 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 2     
++---Registers : 
+	                5 Bit    Registers := 2     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 4     
+Module PS2Receiver 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+	  12 Input      1 Bit        Muxes := 2     
+Module sequence_detect 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 4     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 16    
+	   6 Input      5 Bit        Muxes := 1     
+	   3 Input      5 Bit        Muxes := 11    
+	   4 Input      5 Bit        Muxes := 3     
+	   2 Input      4 Bit        Muxes := 7     
+	   3 Input      4 Bit        Muxes := 5     
+	  10 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 4     
+	   3 Input      3 Bit        Muxes := 2     
+	   3 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 6     
+	   6 Input      1 Bit        Muxes := 1     
+	  26 Input      1 Bit        Muxes := 5     
+	  10 Input      1 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 1     
+Module ascii2char 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+Module seven 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     17 Bit       Adders := 1     
+	   2 Input      1 Bit       Adders := 1     
++---Registers : 
+	               17 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     17 Bit        Muxes := 1     
+	  32 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+Module keyboard_seq 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module pc 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module alu 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   3 Input     32 Bit       Adders := 1     
++---Multipliers : 
+	                32x32  Multipliers := 1     
+Module regFile 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 32    
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 32    
+Module adder 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+Module mux 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module control 
+Detailed RTL Component Info : 
++---Muxes : 
+	   7 Input      2 Bit        Muxes := 1     
+	   7 Input      1 Bit        Muxes := 7     
+Module aluControl 
+Detailed RTL Component Info : 
++---Muxes : 
+	   7 Input      3 Bit        Muxes := 1     
+Module vga_controller 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 2     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               10 Bit    Registers := 4     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module ascii_rom 
+Detailed RTL Component Info : 
++---Registers : 
+	               11 Bit    Registers := 2     
++---ROMs : 
+	                              ROMs := 2     
+Module ascii_test 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 1     
+	   9 Input      7 Bit        Muxes := 1     
+Module top 
+Detailed RTL Component Info : 
++---Registers : 
+	               12 Bit    Registers := 1     
+Module instMem 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 4     
+	   8 Input     32 Bit        Muxes := 2     
+	   9 Input     32 Bit        Muxes := 3     
+	   9 Input     29 Bit        Muxes := 3     
+	   2 Input     28 Bit        Muxes := 1     
+	   8 Input     28 Bit        Muxes := 1     
+	   9 Input     26 Bit        Muxes := 1     
+	   9 Input     21 Bit        Muxes := 1     
+	   9 Input     16 Bit        Muxes := 2     
+Module dataMem 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 100   
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 7     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3936] Found unconnected internal register 'keyboard/keycode_reg' and it is trimmed from '32' to '24' bits. [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/PS2Receiver.v:74]
+INFO: [Synth 8-5546] ROM "p_0_out" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "p_0_out" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "p_0_out" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "p_0_out" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "p_0_out" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "p_0_out" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/alu.v:20]
+DSP Report: Generating DSP M1/D1/ALU/result0, operation Mode is: A*B.
+DSP Report: operator M1/D1/ALU/result0 is absorbed into DSP M1/D1/ALU/result0.
+DSP Report: operator M1/D1/ALU/result0 is absorbed into DSP M1/D1/ALU/result0.
+DSP Report: Generating DSP M1/D1/ALU/result0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M1/D1/ALU/result0 is absorbed into DSP M1/D1/ALU/result0.
+DSP Report: operator M1/D1/ALU/result0 is absorbed into DSP M1/D1/ALU/result0.
+DSP Report: Generating DSP M1/D1/ALU/result0, operation Mode is: A*B.
+DSP Report: operator M1/D1/ALU/result0 is absorbed into DSP M1/D1/ALU/result0.
+DSP Report: operator M1/D1/ALU/result0 is absorbed into DSP M1/D1/ALU/result0.
+DSP Report: Generating DSP M1/D1/ALU/result0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator M1/D1/ALU/result0 is absorbed into DSP M1/D1/ALU/result0.
+DSP Report: operator M1/D1/ALU/result0 is absorbed into DSP M1/D1/ALU/result0.
+WARNING: [Synth 8-3331] design instMem has unconnected port pc[31]
+WARNING: [Synth 8-3331] design instMem has unconnected port pc[30]
+WARNING: [Synth 8-3331] design instMem has unconnected port pc[29]
+WARNING: [Synth 8-3331] design instMem has unconnected port pc[28]
+WARNING: [Synth 8-3331] design instMem has unconnected port pc[27]
+WARNING: [Synth 8-3331] design instMem has unconnected port pc[26]
+WARNING: [Synth 8-3331] design instMem has unconnected port pc[25]
+WARNING: [Synth 8-3331] design instMem has unconnected port pc[24]
+WARNING: [Synth 8-3331] design instMem has unconnected port pc[23]
+WARNING: [Synth 8-3331] design instMem has unconnected port pc[22]
+WARNING: [Synth 8-3331] design instMem has unconnected port pc[21]
+WARNING: [Synth 8-3331] design instMem has unconnected port pc[20]
+WARNING: [Synth 8-3331] design instMem has unconnected port pc[19]
+WARNING: [Synth 8-3331] design instMem has unconnected port pc[18]
+WARNING: [Synth 8-3331] design instMem has unconnected port pc[17]
+WARNING: [Synth 8-3331] design instMem has unconnected port pc[16]
+WARNING: [Synth 8-3331] design instMem has unconnected port pc[15]
+WARNING: [Synth 8-3331] design instMem has unconnected port pc[14]
+WARNING: [Synth 8-3331] design instMem has unconnected port pc[13]
+WARNING: [Synth 8-3331] design instMem has unconnected port pc[12]
+WARNING: [Synth 8-3331] design instMem has unconnected port pc[11]
+WARNING: [Synth 8-3331] design instMem has unconnected port pc[10]
+WARNING: [Synth 8-3331] design instMem has unconnected port pc[9]
+WARNING: [Synth 8-3331] design instMem has unconnected port pc[1]
+WARNING: [Synth 8-3331] design instMem has unconnected port pc[0]
+WARNING: [Synth 8-3331] design instMem has unconnected port clk
+INFO: [Synth 8-3886] merging instance 't21/rgb_reg_reg[0]' (FDE) to 't21/rgb_reg_reg[1]'
+INFO: [Synth 8-3886] merging instance 't21/rgb_reg_reg[1]' (FDE) to 't21/rgb_reg_reg[2]'
+INFO: [Synth 8-3886] merging instance 't21/rgb_reg_reg[2]' (FDE) to 't21/rgb_reg_reg[3]'
+INFO: [Synth 8-3886] merging instance 't21/rgb_reg_reg[3]' (FDE) to 't21/rgb_reg_reg[4]'
+INFO: [Synth 8-3886] merging instance 't21/rgb_reg_reg[4]' (FDE) to 't21/rgb_reg_reg[5]'
+INFO: [Synth 8-3886] merging instance 't21/rgb_reg_reg[5]' (FDE) to 't21/rgb_reg_reg[6]'
+INFO: [Synth 8-3886] merging instance 't21/rgb_reg_reg[6]' (FDE) to 't21/rgb_reg_reg[7]'
+INFO: [Synth 8-3886] merging instance 't21/rgb_reg_reg[7]' (FDE) to 't21/rgb_reg_reg[8]'
+INFO: [Synth 8-3886] merging instance 't21/rgb_reg_reg[8]' (FDE) to 't21/rgb_reg_reg[9]'
+INFO: [Synth 8-3886] merging instance 't21/rgb_reg_reg[9]' (FDE) to 't21/rgb_reg_reg[10]'
+INFO: [Synth 8-3886] merging instance 't21/rgb_reg_reg[10]' (FDE) to 't21/rgb_reg_reg[11]'
+INFO: [Synth 8-3886] merging instance 't1/keyboard/keycode_reg[6]' (FDE) to 't1/keyboard/dataprev_reg[6]'
+INFO: [Synth 8-3886] merging instance 't1/keyboard/keycode_reg[7]' (FDE) to 't1/keyboard/dataprev_reg[7]'
+INFO: [Synth 8-3886] merging instance 't1/keyboard/keycode_reg[0]' (FDE) to 't1/keyboard/dataprev_reg[0]'
+INFO: [Synth 8-3886] merging instance 't1/keyboard/keycode_reg[1]' (FDE) to 't1/keyboard/dataprev_reg[1]'
+INFO: [Synth 8-3886] merging instance 't1/keyboard/keycode_reg[2]' (FDE) to 't1/keyboard/dataprev_reg[2]'
+INFO: [Synth 8-3886] merging instance 't1/keyboard/keycode_reg[3]' (FDE) to 't1/keyboard/dataprev_reg[3]'
+INFO: [Synth 8-3886] merging instance 't1/keyboard/keycode_reg[4]' (FDE) to 't1/keyboard/dataprev_reg[4]'
+INFO: [Synth 8-3886] merging instance 't1/keyboard/keycode_reg[5]' (FDE) to 't1/keyboard/dataprev_reg[5]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (t1/\ss/op4_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (t1/\ss/op3_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (t1/\ss/op2_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (t1/\ss/op1_reg[7] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:47 ; elapsed = 00:02:19 . Memory (MB): peak = 1052.000 ; gain = 392.547
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++-------------+-----------------------------+---------------+----------------+
+|Module Name  | RTL Object                  | Depth x Width | Implemented As | 
++-------------+-----------------------------+---------------+----------------+
+|scan2ascii   | ascii_code                  | 256x7         | LUT            | 
+|keyboard_seq | keyboard/keycode_reg_rep    | 256x7         | Block RAM      | 
+|topmodule    | t21/at/rom/addr_reg_reg     | 2048x8        | Block RAM      | 
+|topmodule    | t21/at/rom/addr_reg_reg_rep | 2048x1        | Block RAM      | 
++-------------+-----------------------------+---------------+----------------+
+
+
+DSP: Preliminary Mapping  Report (see note below)
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping    | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|topmodule   | A*B            | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|topmodule   | (PCIN>>17)+A*B | 16     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|topmodule   | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|topmodule   | (PCIN>>17)+A*B | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6837] The timing for the instance t1/ss/ps00/keyboard/keycode_reg_rep (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance i_1/t21/at/rom/addr_reg_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance i_2/t21/at/rom/addr_reg_reg_rep (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:51 ; elapsed = 00:02:30 . Memory (MB): peak = 1069.727 ; gain = 410.273
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:52 ; elapsed = 00:02:32 . Memory (MB): peak = 1074.652 ; gain = 415.199
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6837] The timing for the instance t1/keyboard/keycode_reg_rep (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance t21/at/rom/addr_reg_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance t21/at/rom/addr_reg_reg_rep (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:53 ; elapsed = 00:02:34 . Memory (MB): peak = 1103.691 ; gain = 444.238
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:53 ; elapsed = 00:02:35 . Memory (MB): peak = 1109.191 ; gain = 449.738
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:53 ; elapsed = 00:02:35 . Memory (MB): peak = 1109.191 ; gain = 449.738
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:54 ; elapsed = 00:02:35 . Memory (MB): peak = 1109.191 ; gain = 449.738
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:54 ; elapsed = 00:02:35 . Memory (MB): peak = 1109.191 ; gain = 449.738
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:54 ; elapsed = 00:02:35 . Memory (MB): peak = 1109.238 ; gain = 449.785
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:54 ; elapsed = 00:02:35 . Memory (MB): peak = 1109.238 ; gain = 449.785
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |ila_1         |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+-----------+------+
+|      |Cell       |Count |
++------+-----------+------+
+|1     |ila_1      |     1|
+|2     |BUFG       |     1|
+|3     |CARRY4     |    44|
+|4     |DSP48E1    |     3|
+|5     |LUT1       |    99|
+|6     |LUT2       |    84|
+|7     |LUT3       |   187|
+|8     |LUT4       |   100|
+|9     |LUT5       |   124|
+|10    |LUT6       |  1820|
+|11    |MUXF7      |   646|
+|12    |MUXF8      |   192|
+|13    |RAMB18E1   |     1|
+|14    |RAMB18E1_1 |     1|
+|15    |RAMB18E1_2 |     1|
+|16    |FDCE       |  4317|
+|17    |FDRE       |    73|
+|18    |FDSE       |     1|
+|19    |LD         |     8|
+|20    |IBUF       |     4|
+|21    |OBUF       |    47|
++------+-----------+------+
+
+Report Instance Areas: 
++------+---------------+----------------+------+
+|      |Instance       |Module          |Cells |
++------+---------------+----------------+------+
+|1     |top            |                |  7753|
+|2     |  t1           |keyboard_seq    |   317|
+|3     |    keyboard   |PS2Receiver     |   178|
+|4     |      debounce |debouncer       |    29|
+|5     |    s1         |seven           |    46|
+|6     |    ss         |sequence_detect |    91|
+|7     |  i1           |instMem         |    79|
+|8     |  dm1          |dataMem         |  4809|
+|9     |  M1           |Mips            |  2382|
+|10    |    D1         |datapath        |  2382|
+|11    |      A1       |adder           |     8|
+|12    |      A2       |adder_0         |    43|
+|13    |      ALU      |alu             |   147|
+|14    |      PC1      |pc              |    37|
+|15    |      RF       |regFile         |  2147|
+|16    |  t21          |top             |   113|
+|17    |    at         |ascii_test      |    11|
+|18    |      rom      |ascii_rom       |    11|
+|19    |    vga        |vga_controller  |   101|
++------+---------------+----------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:54 ; elapsed = 00:02:35 . Memory (MB): peak = 1109.238 ; gain = 449.785
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 28 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:50 ; elapsed = 00:02:33 . Memory (MB): peak = 1109.238 ; gain = 307.109
+Synthesis Optimization Complete : Time (s): cpu = 00:00:54 ; elapsed = 00:02:36 . Memory (MB): peak = 1109.238 ; gain = 449.785
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 896 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1125.270 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 8 instances were transformed.
+  LD => LDCE: 8 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+131 Infos, 134 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:58 ; elapsed = 00:02:42 . Memory (MB): peak = 1125.270 ; gain = 718.906
+INFO: [Common 17-600] The following parameters have non-default value.
+tcl.collectionResultDisplayLimit
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1125.270 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/lokes/OneDrive/Documents/cpu_undertest_with_vga/cpu_udertest_test/cpu_udertest.runs/synth_1/topmodule.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file topmodule_utilization_synth.rpt -pb topmodule_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Mar  1 11:51:20 2023...

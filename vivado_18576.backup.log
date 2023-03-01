@@ -1,0 +1,595 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Feb 24 12:27:38 2023
+# Process ID: 18576
+# Current directory: C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15544 C:\Users\lokes\OneDrive\Pictures\cpu_udertest_test\cpu_udertest.xpr
+# Log file: C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/vivado.log
+# Journal file: C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/lokes/Downloads/cpu_undertest_with_single_digit_operand-20230224T062250Z-001/cpu_undertest_with_single_digit_operand/cpu_udertest' since last save.
+WARNING: [Project 1-312] File not found as 'C:/Users/Videos/VLSI/F0ZMJ77IJSV3B4A/text_display/text_display.srcs/sources_1/new/ascii_rom.v'; using path 'C:/Users/lokes/Videos/VLSI/F0ZMJ77IJSV3B4A/text_display/text_display.srcs/sources_1/new/ascii_rom.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/Videos/VLSI/F0ZMJ77IJSV3B4A/text_display/text_display.srcs/sources_1/new/ascii_test.v'; using path 'C:/Users/lokes/Videos/VLSI/F0ZMJ77IJSV3B4A/text_display/text_display.srcs/sources_1/new/ascii_test.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/Videos/VLSI/F0ZMJ77IJSV3B4A/text_display/text_display.srcs/sources_1/new/top.v'; using path 'C:/Users/lokes/Videos/VLSI/F0ZMJ77IJSV3B4A/text_display/text_display.srcs/sources_1/new/top.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/Videos/VLSI/F0ZMJ77IJSV3B4A/text_display/text_display.srcs/sources_1/new/vga_controller.v'; using path 'C:/Users/lokes/Videos/VLSI/F0ZMJ77IJSV3B4A/text_display/text_display.srcs/sources_1/new/vga_controller.v' instead.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-312] File not found as 'C:/Users/Videos/VLSI/F0ZMJ77IJSV3B4A/text_display/text_display.srcs/sources_1/new/ascii_rom.v'; using path 'C:/Users/lokes/Videos/VLSI/F0ZMJ77IJSV3B4A/text_display/text_display.srcs/sources_1/new/ascii_rom.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/Videos/VLSI/F0ZMJ77IJSV3B4A/text_display/text_display.srcs/sources_1/new/ascii_test.v'; using path 'C:/Users/lokes/Videos/VLSI/F0ZMJ77IJSV3B4A/text_display/text_display.srcs/sources_1/new/ascii_test.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/Videos/VLSI/F0ZMJ77IJSV3B4A/text_display/text_display.srcs/sources_1/new/top.v'; using path 'C:/Users/lokes/Videos/VLSI/F0ZMJ77IJSV3B4A/text_display/text_display.srcs/sources_1/new/top.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/Videos/VLSI/F0ZMJ77IJSV3B4A/text_display/text_display.srcs/sources_1/new/vga_controller.v'; using path 'C:/Users/lokes/Videos/VLSI/F0ZMJ77IJSV3B4A/text_display/text_display.srcs/sources_1/new/vga_controller.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/Videos/VLSI/F0ZMJ77IJSV3B4A/text_display/text_display.srcs/sources_1/new/ascii_rom.v'; using path 'C:/Users/lokes/Videos/VLSI/F0ZMJ77IJSV3B4A/text_display/text_display.srcs/sources_1/new/ascii_rom.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/Videos/VLSI/F0ZMJ77IJSV3B4A/text_display/text_display.srcs/sources_1/new/ascii_test.v'; using path 'C:/Users/lokes/Videos/VLSI/F0ZMJ77IJSV3B4A/text_display/text_display.srcs/sources_1/new/ascii_test.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/Videos/VLSI/F0ZMJ77IJSV3B4A/text_display/text_display.srcs/sources_1/new/top.v'; using path 'C:/Users/lokes/Videos/VLSI/F0ZMJ77IJSV3B4A/text_display/text_display.srcs/sources_1/new/top.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/Videos/VLSI/F0ZMJ77IJSV3B4A/text_display/text_display.srcs/sources_1/new/vga_controller.v'; using path 'C:/Users/lokes/Videos/VLSI/F0ZMJ77IJSV3B4A/text_display/text_display.srcs/sources_1/new/vga_controller.v' instead.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+update_compile_order -fileset sources_1
+reset_run impl_1
+launch_runs impl_1 -jobs 16
+[Fri Feb 24 12:28:10 2023] Launched impl_1...
+Run output will be captured here: C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Fri Feb 24 12:30:32 2023] Launched impl_1...
+Run output will be captured here: C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292ABF98FA
+set_property PROGRAM.FILE {C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.runs/impl_1/topmodule.bit} [get_hw_devices xc7a100t_0]
+set_property PROBES.FILE {C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.runs/impl_1/topmodule.ltx} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.runs/impl_1/topmodule.ltx} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'t1/ss/your_instance_name1' at location 'uuid_D30299E19CBE5623A6D832D881BF82C1' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'i1/your_instance_name' at location 'uuid_D62EAAF88AEA5DC2B579AE95C60EDC9B' from probes file, since it cannot be found on the programmed device.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.runs/impl_1/topmodule.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a100t (JTAG device index = 0) is programmed with a design that has 2 ILA core(s).
+WARNING: [Labtools 27-1347] Unable to find Debug Probes file []. Please update hw_device property [PROBES.FILE]
+ Update of hw_probe objects, will be skipped.
+WARNING: [Labtools 27-1974] Mismatch between the design programmed into the device xc7a100t_0 and the probes file(s) .
+The device design has 2 ILA core(s) and 0 VIO core(s). 0 ILA core(s) and 0 VIO core(s) are matched in the probes file(s).
+Resolution: 
+1. Reprogram device with the correct programming file and associated probes file(s) OR
+2. Goto device properties and associate the correct probes file(s) with the programming file already programmed in the device.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210292ABF98FA
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Fri Feb 24 12:39:00 2023] Launched impl_1...
+Run output will be captured here: C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.runs/impl_1/runme.log
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292ABF98FA
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210292ABF98FA.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Common 17-39] 'open_hw_target' failed due to earlier errors.
+close_hw
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292ABF98FA
+set_property PROGRAM.FILE {C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.runs/impl_1/topmodule.bit} [get_hw_devices xc7a100t_0]
+set_property PROBES.FILE {C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.runs/impl_1/topmodule.ltx} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.runs/impl_1/topmodule.ltx} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1435] Device xc7a100t (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.runs/impl_1/topmodule.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a100t (JTAG device index = 0) is programmed with a design that has 2 ILA core(s).
+WARNING: [Labtools 27-1347] Unable to find Debug Probes file []. Please update hw_device property [PROBES.FILE]
+ Update of hw_probe objects, will be skipped.
+WARNING: [Labtools 27-1974] Mismatch between the design programmed into the device xc7a100t_0 and the probes file(s) .
+The device design has 2 ILA core(s) and 0 VIO core(s). 0 ILA core(s) and 0 VIO core(s) are matched in the probes file(s).
+Resolution: 
+1. Reprogram device with the correct programming file and associated probes file(s) OR
+2. Goto device properties and associate the correct probes file(s) with the programming file already programmed in the device.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Fri Feb 24 12:47:47 2023] Launched synth_1...
+Run output will be captured here: C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.runs/synth_1/runme.log
+[Fri Feb 24 12:47:47 2023] Launched impl_1...
+Run output will be captured here: C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.runs/impl_1/runme.log
+set_property PROBES.FILE {C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.runs/impl_1/topmodule.ltx} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.runs/impl_1/topmodule.ltx} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.runs/impl_1/topmodule.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a100t (JTAG device index = 0) is programmed with a design that has 3 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"i1/your_instance_name"}]]
+WARNING: Simulation object i1/rom[0] was not found in the design.
+WARNING: Simulation object i1/rom[1] was not found in the design.
+WARNING: Simulation object i1/rom[2] was not found in the design.
+WARNING: Simulation object i1/rom[3] was not found in the design.
+WARNING: Simulation object i1/rom[4] was not found in the design.
+WARNING: Simulation object i1/rom[5]__0 was not found in the design.
+WARNING: Simulation object i1/rom[6] was not found in the design.
+WARNING: Simulation object i1/rom[7] was not found in the design.
+WARNING: Simulation object i1/rom[8] was not found in the design.
+WARNING: Simulation object i1/rom[9] was not found in the design.
+WARNING: Simulation object i1/rom[10] was not found in the design.
+WARNING: Simulation object i1/rom[11] was not found in the design.
+WARNING: Simulation object i1/rom[12] was not found in the design.
+WARNING: Simulation object i1/rom[13] was not found in the design.
+WARNING: Simulation object i1/rom[14] was not found in the design.
+WARNING: Simulation object i1/rom[15]__0 was not found in the design.
+WARNING: Simulation object i1/rom[16] was not found in the design.
+WARNING: Simulation object i1/rom[17] was not found in the design.
+WARNING: Simulation object i1/rom[18] was not found in the design.
+WARNING: Simulation object i1/rom[19] was not found in the design.
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"t1/ss/your_instance_name1"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_3 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"t1/your_instance_name"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"t1/your_instance_name"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_3' trigger was armed at 2023-Feb-24 12:54:16
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"t1/your_instance_name"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"t1/your_instance_name"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_3' triggered at 2023-Feb-24 12:54:16
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.hw/backup/hw_ila_data_3.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"t1/your_instance_name"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_3' trigger was armed at 2023-Feb-24 12:54:52
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"t1/your_instance_name"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"t1/your_instance_name"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_3' triggered at 2023-Feb-24 12:54:52
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.hw/backup/hw_ila_data_3.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"t1/your_instance_name"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_3' trigger was armed at 2023-Feb-24 12:54:55
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"t1/your_instance_name"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"t1/your_instance_name"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_3' triggered at 2023-Feb-24 12:54:55
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.hw/backup/hw_ila_data_3.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"t1/your_instance_name"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_3' trigger was armed at 2023-Feb-24 12:54:59
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"t1/your_instance_name"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"t1/your_instance_name"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_3' triggered at 2023-Feb-24 12:54:59
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.hw/backup/hw_ila_data_3.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"t1/your_instance_name"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_3' trigger was armed at 2023-Feb-24 12:55:02
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"t1/your_instance_name"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"t1/your_instance_name"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_3' triggered at 2023-Feb-24 12:55:02
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.hw/backup/hw_ila_data_3.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"t1/your_instance_name"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_3' trigger was armed at 2023-Feb-24 12:55:06
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"t1/your_instance_name"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"t1/your_instance_name"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_3' triggered at 2023-Feb-24 12:55:06
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.hw/backup/hw_ila_data_3.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"t1/your_instance_name"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_3' trigger was armed at 2023-Feb-24 12:55:09
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"t1/your_instance_name"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"t1/your_instance_name"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_3' triggered at 2023-Feb-24 12:55:09
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.hw/backup/hw_ila_data_3.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"t1/your_instance_name"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_3' trigger was armed at 2023-Feb-24 12:55:16
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"t1/your_instance_name"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"t1/your_instance_name"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_3' triggered at 2023-Feb-24 12:55:16
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.hw/backup/hw_ila_data_3.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"t1/your_instance_name"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_3' trigger was armed at 2023-Feb-24 12:55:21
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"t1/your_instance_name"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"t1/your_instance_name"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_3' triggered at 2023-Feb-24 12:55:21
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.hw/backup/hw_ila_data_3.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"t1/your_instance_name"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_3' trigger was armed at 2023-Feb-24 12:55:39
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"t1/your_instance_name"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"t1/your_instance_name"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_3' triggered at 2023-Feb-24 12:55:39
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.hw/backup/hw_ila_data_3.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210292ABF98FA
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: topmodule
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2642.867 ; gain = 181.973
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'topmodule' [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/topmodule.v:1]
+INFO: [Synth 8-6157] synthesizing module 'keyboard_seq' [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/keyboard_seq.v:26]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/keyboard_seq.v:57]
+INFO: [Synth 8-6157] synthesizing module 'ila_0' [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/.Xil/Vivado-18576-LOKESH/realtime/ila_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ila_0' (1#1) [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/.Xil/Vivado-18576-LOKESH/realtime/ila_0_stub.v:6]
+WARNING: [Synth 8-689] width (8) of port connection 'probe2' does not match port width (4) of module 'ila_0' [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/keyboard_seq.v:63]
+INFO: [Synth 8-6157] synthesizing module 'PS2Receiver' [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/PS2Receiver.v:23]
+INFO: [Synth 8-6157] synthesizing module 'debouncer' [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/debouncer.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'debouncer' (2#1) [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/debouncer.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/PS2Receiver.v:53]
+INFO: [Synth 8-6155] done synthesizing module 'PS2Receiver' (3#1) [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/PS2Receiver.v:23]
+INFO: [Synth 8-6157] synthesizing module 'sequence_detect' [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/sequence_detect.v:23]
+	Parameter s0 bound to: 5'b00000 
+	Parameter s1 bound to: 5'b00001 
+	Parameter s2 bound to: 5'b00010 
+	Parameter s3 bound to: 5'b00011 
+	Parameter s4 bound to: 5'b00100 
+	Parameter s5 bound to: 5'b00101 
+	Parameter s6 bound to: 5'b00110 
+	Parameter s7 bound to: 5'b00111 
+	Parameter s8 bound to: 5'b01000 
+	Parameter s9 bound to: 5'b01001 
+	Parameter s10 bound to: 5'b01010 
+	Parameter s11 bound to: 5'b01011 
+	Parameter s12 bound to: 5'b01100 
+	Parameter s13 bound to: 5'b01101 
+	Parameter s14 bound to: 5'b01110 
+	Parameter s15 bound to: 5'b01111 
+	Parameter s16 bound to: 5'b10000 
+	Parameter s17 bound to: 5'b10001 
+	Parameter s18 bound to: 5'b10010 
+	Parameter s19 bound to: 5'b10011 
+	Parameter s20 bound to: 5'b10100 
+	Parameter s21 bound to: 5'b10101 
+	Parameter s22 bound to: 5'b10110 
+INFO: [Synth 8-251] yes [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/sequence_detect.v:42]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/sequence_detect.v:44]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/sequence_detect.v:43]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/sequence_detect.v:133]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/sequence_detect.v:146]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'your_instance_name1'. This will prevent further optimization [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/sequence_detect.v:133]
+WARNING: [Synth 8-6014] Unused sequential element i_reg was removed.  [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/sequence_detect.v:31]
+WARNING: [Synth 8-6014] Unused sequential element clk_d_reg was removed.  [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/sequence_detect.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'sequence_detect' (4#1) [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/sequence_detect.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ascii2char' [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/ascii2char.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ascii2char' (5#1) [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/ascii2char.v:23]
+INFO: [Synth 8-6157] synthesizing module 'scan2ascii' [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/scan2ascii.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'scan2ascii' (6#1) [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/scan2ascii.v:23]
+INFO: [Synth 8-6157] synthesizing module 'seven' [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/seven.v:23]
+	Parameter ZERO bound to: 8'b00000011 
+	Parameter ONE bound to: 8'b10011111 
+	Parameter TWO bound to: 8'b00100101 
+	Parameter THREE bound to: 8'b00001101 
+	Parameter FOUR bound to: 8'b10011001 
+	Parameter FIVE bound to: 8'b01001001 
+	Parameter SIX bound to: 8'b01000001 
+	Parameter SEVEN bound to: 8'b00011111 
+	Parameter EIGHT bound to: 8'b00000001 
+	Parameter NINE bound to: 8'b00001001 
+	Parameter A bound to: 8'b00010001 
+	Parameter B bound to: 8'b11000001 
+	Parameter C bound to: 8'b01100011 
+	Parameter D bound to: 8'b10000101 
+	Parameter E bound to: 8'b01100001 
+	Parameter F bound to: 8'b01110001 
+INFO: [Synth 8-6155] done synthesizing module 'seven' (7#1) [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/seven.v:23]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'a2c1'. This will prevent further optimization [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/keyboard_seq.v:78]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'your_instance_name'. This will prevent further optimization [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/keyboard_seq.v:57]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'a2c2'. This will prevent further optimization [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/keyboard_seq.v:79]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'a'. This will prevent further optimization [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/keyboard_seq.v:94]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 's1'. This will prevent further optimization [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/keyboard_seq.v:95]
+INFO: [Synth 8-6155] done synthesizing module 'keyboard_seq' (8#1) [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/keyboard_seq.v:26]
+INFO: [Synth 8-6157] synthesizing module 'Mips' [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/Mips.v:1]
+INFO: [Synth 8-6157] synthesizing module 'datapath' [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/datapath.v:1]
+INFO: [Synth 8-6157] synthesizing module 'pc' [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/pc.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'pc' (9#1) [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/pc.v:1]
+INFO: [Synth 8-6157] synthesizing module 'alu' [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/alu.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'alu' (10#1) [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/alu.v:1]
+INFO: [Synth 8-6157] synthesizing module 'regFile' [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/regFile.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'regFile' (11#1) [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/regFile.v:1]
+INFO: [Synth 8-6157] synthesizing module 'signExtend' [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/signExtend.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'signExtend' (12#1) [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/signExtend.v:1]
+INFO: [Synth 8-6157] synthesizing module 'adder' [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/adder.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'adder' (13#1) [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/adder.v:1]
+INFO: [Synth 8-6157] synthesizing module 'shiftLeft' [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/shiftLeft.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'shiftLeft' (14#1) [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/shiftLeft.v:1]
+INFO: [Synth 8-6157] synthesizing module 'mux' [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/mux.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'mux' (15#1) [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/mux.v:1]
+WARNING: [Synth 8-689] width (5) of port connection 'out' does not match port width (32) of module 'mux' [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/datapath.v:106]
+INFO: [Synth 8-6155] done synthesizing module 'datapath' (16#1) [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/datapath.v:1]
+INFO: [Synth 8-6157] synthesizing module 'control' [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/control.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'control' (17#1) [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/control.v:1]
+INFO: [Synth 8-6157] synthesizing module 'aluControl' [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/aluControl.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'aluControl' (18#1) [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/aluControl.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Mips' (19#1) [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/Mips.v:1]
+INFO: [Synth 8-6157] synthesizing module 'top' [C:/Users/lokes/Videos/VLSI/F0ZMJ77IJSV3B4A/text_display/text_display.srcs/sources_1/new/top.v:3]
+INFO: [Synth 8-6157] synthesizing module 'vga_controller' [C:/Users/lokes/Videos/VLSI/F0ZMJ77IJSV3B4A/text_display/text_display.srcs/sources_1/new/vga_controller.v:21]
+	Parameter HD bound to: 640 - type: integer 
+	Parameter HF bound to: 48 - type: integer 
+	Parameter HB bound to: 16 - type: integer 
+	Parameter HR bound to: 96 - type: integer 
+	Parameter HMAX bound to: 799 - type: integer 
+	Parameter VD bound to: 480 - type: integer 
+	Parameter VF bound to: 10 - type: integer 
+	Parameter VB bound to: 33 - type: integer 
+	Parameter VR bound to: 2 - type: integer 
+	Parameter VMAX bound to: 524 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'vga_controller' (20#1) [C:/Users/lokes/Videos/VLSI/F0ZMJ77IJSV3B4A/text_display/text_display.srcs/sources_1/new/vga_controller.v:21]
+INFO: [Synth 8-6157] synthesizing module 'ascii_test' [C:/Users/lokes/Videos/VLSI/F0ZMJ77IJSV3B4A/text_display/text_display.srcs/sources_1/new/ascii_test.v:9]
+INFO: [Synth 8-6157] synthesizing module 'ascii_rom' [C:/Users/lokes/Videos/VLSI/F0ZMJ77IJSV3B4A/text_display/text_display.srcs/sources_1/new/ascii_rom.v:23]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "block" *) [C:/Users/lokes/Videos/VLSI/F0ZMJ77IJSV3B4A/text_display/text_display.srcs/sources_1/new/ascii_rom.v:31]
+WARNING: [Synth 8-151] case item 11'b11000111111 is unreachable [C:/Users/lokes/Videos/VLSI/F0ZMJ77IJSV3B4A/text_display/text_display.srcs/sources_1/new/ascii_rom.v:37]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/lokes/Videos/VLSI/F0ZMJ77IJSV3B4A/text_display/text_display.srcs/sources_1/new/ascii_rom.v:37]
+INFO: [Synth 8-6155] done synthesizing module 'ascii_rom' (21#1) [C:/Users/lokes/Videos/VLSI/F0ZMJ77IJSV3B4A/text_display/text_display.srcs/sources_1/new/ascii_rom.v:23]
+WARNING: [Synth 8-567] referenced signal 'x' should be on the sensitivity list [C:/Users/lokes/Videos/VLSI/F0ZMJ77IJSV3B4A/text_display/text_display.srcs/sources_1/new/ascii_test.v:42]
+WARNING: [Synth 8-567] referenced signal 'y' should be on the sensitivity list [C:/Users/lokes/Videos/VLSI/F0ZMJ77IJSV3B4A/text_display/text_display.srcs/sources_1/new/ascii_test.v:42]
+INFO: [Synth 8-6155] done synthesizing module 'ascii_test' (22#1) [C:/Users/lokes/Videos/VLSI/F0ZMJ77IJSV3B4A/text_display/text_display.srcs/sources_1/new/ascii_test.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'top' (23#1) [C:/Users/lokes/Videos/VLSI/F0ZMJ77IJSV3B4A/text_display/text_display.srcs/sources_1/new/top.v:3]
+WARNING: [Synth 8-689] width (8) of port connection 'print' does not match port width (7) of module 'top' [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/topmodule.v:38]
+INFO: [Synth 8-6157] synthesizing module 'instMem' [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:1]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:12]
+INFO: [Synth 8-251] test value 1 [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:42]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:40]
+INFO: [Synth 8-251] test value 2 [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:123]
+WARNING: [Synth 8-567] referenced signal 'char_op1' should be on the sensitivity list [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:28]
+WARNING: [Synth 8-567] referenced signal 'char_op2' should be on the sensitivity list [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:28]
+WARNING: [Synth 8-3848] Net rom[21] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[22] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[23] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[24] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[25] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[26] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[27] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[28] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[29] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[30] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[31] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[32] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[33] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[34] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[35] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[36] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[37] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[38] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[39] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[40] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[41] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[42] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[43] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[44] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[45] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[46] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[47] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[48] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[49] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[50] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[51] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[52] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[53] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[54] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[55] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[56] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[57] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[58] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[59] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[60] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[61] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[62] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[63] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[64] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[65] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[66] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[67] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[68] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[69] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[70] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[71] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[72] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[73] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[74] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[75] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[76] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[77] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[78] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[79] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[80] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[81] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[82] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[83] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[84] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[85] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[86] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[87] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[88] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[89] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[90] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[91] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[92] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[93] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[94] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[95] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[96] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[97] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[98] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+WARNING: [Synth 8-3848] Net rom[99] in module/entity instMem does not have driver. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'instMem' (24#1) [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/instMem.v:1]
+INFO: [Synth 8-6157] synthesizing module 'dataMem' [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/dataMem.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'dataMem' (25#1) [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/dataMem.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'topmodule' (26#1) [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/new/topmodule.v:1]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2703.773 ; gain = 242.879
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2725.680 ; gain = 264.785
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2725.680 ; gain = 264.785
+---------------------------------------------------------------------------------
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/ip/ila_0/ila_0.dcp' for cell 't1/your_instance_name'
+INFO: [Netlist 29-17] Analyzing 195 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2019.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila.xdc] for cell 'i1/your_instance_name/inst'
+Finished Parsing XDC File [c:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila.xdc] for cell 'i1/your_instance_name/inst'
+Parsing XDC File [c:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila.xdc] for cell 't1/ss/your_instance_name1/inst'
+Finished Parsing XDC File [c:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila.xdc] for cell 't1/ss/your_instance_name1/inst'
+Parsing XDC File [c:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila.xdc] for cell 't1/your_instance_name/inst'
+Finished Parsing XDC File [c:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila.xdc] for cell 't1/your_instance_name/inst'
+Parsing XDC File [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/constrs_1/new/myconst.xdc]
+WARNING: [Vivado 12-584] No ports matched 'outp[3]'. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/constrs_1/new/myconst.xdc:89]
+WARNING: [Vivado 12-584] No ports matched 'outp[2]'. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/constrs_1/new/myconst.xdc:90]
+WARNING: [Vivado 12-584] No ports matched 'outp[1]'. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/constrs_1/new/myconst.xdc:91]
+WARNING: [Vivado 12-584] No ports matched 'outp[0]'. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/constrs_1/new/myconst.xdc:92]
+WARNING: [Vivado 12-584] No ports matched 'outp[3]'. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/constrs_1/new/myconst.xdc:105]
+WARNING: [Vivado 12-584] No ports matched 'outp[2]'. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/constrs_1/new/myconst.xdc:106]
+WARNING: [Vivado 12-584] No ports matched 'outp[1]'. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/constrs_1/new/myconst.xdc:107]
+WARNING: [Vivado 12-584] No ports matched 'outp[0]'. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/constrs_1/new/myconst.xdc:108]
+WARNING: [Vivado 12-584] No ports matched 'ready'. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/constrs_1/new/myconst.xdc:122]
+WARNING: [Vivado 12-584] No ports matched 'ready'. [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/constrs_1/new/myconst.xdc:123]
+Finished Parsing XDC File [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/constrs_1/new/myconst.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.srcs/constrs_1/new/myconst.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/topmodule_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 2893.934 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 120 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRLC32E, SRL16E): 120 instances
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 3110.789 ; gain = 649.895
+77 Infos, 103 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 3110.789 ; gain = 861.422
+INFO: [Common 17-600] The following parameters have non-default value.
+tcl.collectionResultDisplayLimit
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Fri Feb 24 13:07:24 2023] Launched synth_1...
+Run output will be captured here: C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.runs/synth_1/runme.log
+[Fri Feb 24 13:07:24 2023] Launched impl_1...
+Run output will be captured here: C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.runs/impl_1/runme.log
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292ABF98FA
+INFO: [Labtools 27-1435] Device xc7a100t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.runs/impl_1/topmodule.ltx} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.runs/impl_1/topmodule.ltx} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.runs/impl_1/topmodule.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a100t (JTAG device index = 0) is programmed with a design that has 3 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"i1/your_instance_name"}]]
+WARNING: Simulation object i1/rom[0] was not found in the design.
+WARNING: Simulation object i1/rom[1] was not found in the design.
+WARNING: Simulation object i1/rom[2] was not found in the design.
+WARNING: Simulation object i1/rom[3] was not found in the design.
+WARNING: Simulation object i1/rom[4] was not found in the design.
+WARNING: Simulation object i1/rom[5]__0 was not found in the design.
+WARNING: Simulation object i1/rom[6] was not found in the design.
+WARNING: Simulation object i1/rom[7] was not found in the design.
+WARNING: Simulation object i1/rom[8] was not found in the design.
+WARNING: Simulation object i1/rom[9] was not found in the design.
+WARNING: Simulation object i1/rom[10] was not found in the design.
+WARNING: Simulation object i1/rom[11] was not found in the design.
+WARNING: Simulation object i1/rom[12] was not found in the design.
+WARNING: Simulation object i1/rom[13] was not found in the design.
+WARNING: Simulation object i1/rom[14] was not found in the design.
+WARNING: Simulation object i1/rom[15]__0 was not found in the design.
+WARNING: Simulation object i1/rom[16] was not found in the design.
+WARNING: Simulation object i1/rom[17] was not found in the design.
+WARNING: Simulation object i1/rom[18] was not found in the design.
+WARNING: Simulation object i1/rom[19] was not found in the design.
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"t1/ss/your_instance_name1"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_3 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"t1/your_instance_name"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"t1/your_instance_name"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_3' trigger was armed at 2023-Feb-24 13:17:55
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"t1/your_instance_name"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"t1/your_instance_name"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_3' triggered at 2023-Feb-24 13:17:55
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.hw/backup/hw_ila_data_3.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210292ABF98FA
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Fri Feb 24 14:36:42 2023] Launched synth_1...
+Run output will be captured here: C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.runs/synth_1/runme.log
+[Fri Feb 24 14:36:42 2023] Launched impl_1...
+Run output will be captured here: C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.runs/impl_1/runme.log
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292ABF98FA
+INFO: [Labtools 27-1435] Device xc7a100t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210292ABF98FA
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292ABF98FA
+INFO: [Labtools 27-1435] Device xc7a100t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210292ABF98FA
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292ABF98FA
+INFO: [Labtools 27-1435] Device xc7a100t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210292ABF98FA
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292ABF98FA
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210292ABF98FA.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Common 17-39] 'open_hw_target' failed due to earlier errors.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210292ABF98FA
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292ABF98FA
+INFO: [Labtools 27-1435] Device xc7a100t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.runs/impl_1/topmodule.ltx} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.runs/impl_1/topmodule.ltx} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/lokes/OneDrive/Pictures/cpu_udertest_test/cpu_udertest.runs/impl_1/topmodule.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a100t (JTAG device index = 0) is programmed with a design that has 3 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"i1/your_instance_name"}]]
+WARNING: Simulation object i1/rom[0] was not found in the design.
+WARNING: Simulation object i1/rom[1] was not found in the design.
+WARNING: Simulation object i1/rom[2] was not found in the design.
+WARNING: Simulation object i1/rom[3] was not found in the design.
+WARNING: Simulation object i1/rom[4] was not found in the design.
+WARNING: Simulation object i1/rom[5]__0 was not found in the design.
+WARNING: Simulation object i1/rom[6] was not found in the design.
+WARNING: Simulation object i1/rom[7] was not found in the design.
+WARNING: Simulation object i1/rom[8] was not found in the design.
+WARNING: Simulation object i1/rom[9] was not found in the design.
+WARNING: Simulation object i1/rom[10] was not found in the design.
+WARNING: Simulation object i1/rom[11] was not found in the design.
+WARNING: Simulation object i1/rom[12] was not found in the design.
+WARNING: Simulation object i1/rom[13] was not found in the design.
+WARNING: Simulation object i1/rom[14] was not found in the design.
+WARNING: Simulation object i1/rom[15]__0 was not found in the design.
+WARNING: Simulation object i1/rom[16] was not found in the design.
+WARNING: Simulation object i1/rom[17] was not found in the design.
+WARNING: Simulation object i1/rom[18] was not found in the design.
+WARNING: Simulation object i1/rom[19] was not found in the design.
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"t1/ss/your_instance_name1"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_3 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"t1/your_instance_name"}]]
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210292ABF98FA

@@ -1,0 +1,67 @@
+Vivado Simulator 2016.1
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.1/bin/unwrapped/win64.o/xelab.exe -wto 2b47d735b8e04b639662d17ddf262a5f --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Mips_tb_behav xil_defaultlib.Mips_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 5 differs from formal bit length 32 for port out [C:/Users/VLSI/Documents/mehar/my verilog/cpu_udertest/cpu_udertest.srcs/sources_1/new/datapath.v:106]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/VLSI/Documents/mehar/my verilog/cpu_udertest/cpu_udertest.srcs/sources_1/new/topmodule.v" Line 1. Module topmodule doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/VLSI/Documents/mehar/my verilog/cpu_udertest/cpu_udertest.srcs/sources_1/new/Mips.v" Line 1. Module Mips doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/VLSI/Documents/mehar/my verilog/cpu_udertest/cpu_udertest.srcs/sources_1/new/datapath.v" Line 1. Module datapath doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/VLSI/Documents/mehar/my verilog/cpu_udertest/cpu_udertest.srcs/sources_1/new/pc.v" Line 1. Module pc doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/VLSI/Documents/mehar/my verilog/cpu_udertest/cpu_udertest.srcs/sources_1/new/alu.v" Line 1. Module alu doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/VLSI/Documents/mehar/my verilog/cpu_udertest/cpu_udertest.srcs/sources_1/new/regFile.v" Line 1. Module regFile doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/VLSI/Documents/mehar/my verilog/cpu_udertest/cpu_udertest.srcs/sources_1/new/signExtend.v" Line 1. Module signExtend doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/VLSI/Documents/mehar/my verilog/cpu_udertest/cpu_udertest.srcs/sources_1/new/adder.v" Line 1. Module adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/VLSI/Documents/mehar/my verilog/cpu_udertest/cpu_udertest.srcs/sources_1/new/shiftLeft.v" Line 1. Module shiftLeft doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/VLSI/Documents/mehar/my verilog/cpu_udertest/cpu_udertest.srcs/sources_1/new/shiftLeft.v" Line 1. Module shiftLeft doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/VLSI/Documents/mehar/my verilog/cpu_udertest/cpu_udertest.srcs/sources_1/new/adder.v" Line 1. Module adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/VLSI/Documents/mehar/my verilog/cpu_udertest/cpu_udertest.srcs/sources_1/new/mux.v" Line 1. Module mux doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/VLSI/Documents/mehar/my verilog/cpu_udertest/cpu_udertest.srcs/sources_1/new/mux.v" Line 1. Module mux doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/VLSI/Documents/mehar/my verilog/cpu_udertest/cpu_udertest.srcs/sources_1/new/mux.v" Line 1. Module mux doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/VLSI/Documents/mehar/my verilog/cpu_udertest/cpu_udertest.srcs/sources_1/new/mux.v" Line 1. Module mux doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/VLSI/Documents/mehar/my verilog/cpu_udertest/cpu_udertest.srcs/sources_1/new/mux.v" Line 1. Module mux doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/VLSI/Documents/mehar/my verilog/cpu_udertest/cpu_udertest.srcs/sources_1/new/control.v" Line 1. Module control doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/VLSI/Documents/mehar/my verilog/cpu_udertest/cpu_udertest.srcs/sources_1/new/aluControl.v" Line 1. Module aluControl doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/VLSI/Documents/mehar/my verilog/cpu_udertest/cpu_udertest.srcs/sources_1/new/instMem.v" Line 1. Module instMem doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/VLSI/Documents/mehar/my verilog/cpu_udertest/cpu_udertest.srcs/sources_1/new/dataMem.v" Line 1. Module dataMem doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/VLSI/Documents/mehar/my verilog/cpu_udertest/cpu_udertest.srcs/sources_1/new/topmodule.v" Line 1. Module topmodule doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/VLSI/Documents/mehar/my verilog/cpu_udertest/cpu_udertest.srcs/sources_1/new/Mips.v" Line 1. Module Mips doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/VLSI/Documents/mehar/my verilog/cpu_udertest/cpu_udertest.srcs/sources_1/new/datapath.v" Line 1. Module datapath doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/VLSI/Documents/mehar/my verilog/cpu_udertest/cpu_udertest.srcs/sources_1/new/pc.v" Line 1. Module pc doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/VLSI/Documents/mehar/my verilog/cpu_udertest/cpu_udertest.srcs/sources_1/new/alu.v" Line 1. Module alu doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/VLSI/Documents/mehar/my verilog/cpu_udertest/cpu_udertest.srcs/sources_1/new/regFile.v" Line 1. Module regFile doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/VLSI/Documents/mehar/my verilog/cpu_udertest/cpu_udertest.srcs/sources_1/new/signExtend.v" Line 1. Module signExtend doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/VLSI/Documents/mehar/my verilog/cpu_udertest/cpu_udertest.srcs/sources_1/new/adder.v" Line 1. Module adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/VLSI/Documents/mehar/my verilog/cpu_udertest/cpu_udertest.srcs/sources_1/new/shiftLeft.v" Line 1. Module shiftLeft doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/VLSI/Documents/mehar/my verilog/cpu_udertest/cpu_udertest.srcs/sources_1/new/shiftLeft.v" Line 1. Module shiftLeft doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/VLSI/Documents/mehar/my verilog/cpu_udertest/cpu_udertest.srcs/sources_1/new/adder.v" Line 1. Module adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/VLSI/Documents/mehar/my verilog/cpu_udertest/cpu_udertest.srcs/sources_1/new/mux.v" Line 1. Module mux doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/VLSI/Documents/mehar/my verilog/cpu_udertest/cpu_udertest.srcs/sources_1/new/mux.v" Line 1. Module mux doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/VLSI/Documents/mehar/my verilog/cpu_udertest/cpu_udertest.srcs/sources_1/new/mux.v" Line 1. Module mux doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/VLSI/Documents/mehar/my verilog/cpu_udertest/cpu_udertest.srcs/sources_1/new/mux.v" Line 1. Module mux doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/VLSI/Documents/mehar/my verilog/cpu_udertest/cpu_udertest.srcs/sources_1/new/mux.v" Line 1. Module mux doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/VLSI/Documents/mehar/my verilog/cpu_udertest/cpu_udertest.srcs/sources_1/new/control.v" Line 1. Module control doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/VLSI/Documents/mehar/my verilog/cpu_udertest/cpu_udertest.srcs/sources_1/new/aluControl.v" Line 1. Module aluControl doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/VLSI/Documents/mehar/my verilog/cpu_udertest/cpu_udertest.srcs/sources_1/new/instMem.v" Line 1. Module instMem doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/VLSI/Documents/mehar/my verilog/cpu_udertest/cpu_udertest.srcs/sources_1/new/dataMem.v" Line 1. Module dataMem doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.pc
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.regFile
+Compiling module xil_defaultlib.signExtend
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.shiftLeft
+Compiling module xil_defaultlib.mux
+Compiling module xil_defaultlib.datapath
+Compiling module xil_defaultlib.control
+Compiling module xil_defaultlib.aluControl
+Compiling module xil_defaultlib.Mips
+Compiling module xil_defaultlib.instMem
+Compiling module xil_defaultlib.dataMem
+Compiling module xil_defaultlib.topmodule
+Compiling module xil_defaultlib.Mips_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Mips_tb_behav

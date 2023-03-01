@@ -1,0 +1,22 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../cpu_udertest.srcs/sources_1/new/Mips.v" \
+"../../../../cpu_udertest.srcs/sources_1/new/adder.v" \
+"../../../../cpu_udertest.srcs/sources_1/new/alu.v" \
+"../../../../cpu_udertest.srcs/sources_1/new/aluControl.v" \
+"../../../../cpu_udertest.srcs/sources_1/new/control.v" \
+"../../../../cpu_udertest.srcs/sources_1/new/dataMem.v" \
+"../../../../cpu_udertest.srcs/sources_1/new/datapath.v" \
+"../../../../cpu_udertest.srcs/sources_1/new/instMem.v" \
+"../../../../cpu_udertest.srcs/sources_1/new/mux.v" \
+"../../../../cpu_udertest.srcs/sources_1/new/pc.v" \
+"../../../../cpu_udertest.srcs/sources_1/new/regFile.v" \
+"../../../../cpu_udertest.srcs/sources_1/new/shiftLeft.v" \
+"../../../../cpu_udertest.srcs/sources_1/new/signExtend.v" \
+"../../../../cpu_udertest.srcs/sources_1/new/topmodule.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

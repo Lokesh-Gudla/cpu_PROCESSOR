@@ -1,0 +1,18 @@
+0.2
+2016.1
+C:/Users/VLSI/Documents/mehar/my verilog/cpu_udertest/cpu_udertest.sim/sim_1/behav/glbl.v,1460148552,verilog,,,,,,,,,
+C:/Users/VLSI/Documents/mehar/my verilog/cpu_udertest/cpu_udertest.srcs/sources_1/new/Mips.v,1676636218,verilog,,,,,,,,,
+C:/Users/VLSI/Documents/mehar/my verilog/cpu_udertest/cpu_udertest.srcs/sources_1/new/Mips_tb.v,1676636070,verilog,,,,,,,,,
+C:/Users/VLSI/Documents/mehar/my verilog/cpu_udertest/cpu_udertest.srcs/sources_1/new/adder.v,1676636584,verilog,,,,,,,,,
+C:/Users/VLSI/Documents/mehar/my verilog/cpu_udertest/cpu_udertest.srcs/sources_1/new/alu.v,1676636452,verilog,,,,,,,,,
+C:/Users/VLSI/Documents/mehar/my verilog/cpu_udertest/cpu_udertest.srcs/sources_1/new/aluControl.v,1676636766,verilog,,,,,,,,,
+C:/Users/VLSI/Documents/mehar/my verilog/cpu_udertest/cpu_udertest.srcs/sources_1/new/control.v,1676636706,verilog,,,,,,,,,
+C:/Users/VLSI/Documents/mehar/my verilog/cpu_udertest/cpu_udertest.srcs/sources_1/new/dataMem.v,1676636874,verilog,,,,,,,,,
+C:/Users/VLSI/Documents/mehar/my verilog/cpu_udertest/cpu_udertest.srcs/sources_1/new/datapath.v,1676636357,verilog,,,,,,,,,
+C:/Users/VLSI/Documents/mehar/my verilog/cpu_udertest/cpu_udertest.srcs/sources_1/new/instMem.v,1676637292,verilog,,,,,,,,,
+C:/Users/VLSI/Documents/mehar/my verilog/cpu_udertest/cpu_udertest.srcs/sources_1/new/mux.v,1676636662,verilog,,,,,,,,,
+C:/Users/VLSI/Documents/mehar/my verilog/cpu_udertest/cpu_udertest.srcs/sources_1/new/pc.v,1676637062,verilog,,,,,,,,,
+C:/Users/VLSI/Documents/mehar/my verilog/cpu_udertest/cpu_udertest.srcs/sources_1/new/regFile.v,1676637062,verilog,,,,,,,,,
+C:/Users/VLSI/Documents/mehar/my verilog/cpu_udertest/cpu_udertest.srcs/sources_1/new/shiftLeft.v,1676636633,verilog,,,,,,,,,
+C:/Users/VLSI/Documents/mehar/my verilog/cpu_udertest/cpu_udertest.srcs/sources_1/new/signExtend.v,1676637062,verilog,,,,,,,,,
+C:/Users/VLSI/Documents/mehar/my verilog/cpu_udertest/cpu_udertest.srcs/sources_1/new/topmodule.v,1676636176,verilog,,,,,,,,,

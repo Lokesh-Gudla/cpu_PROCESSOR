@@ -1,0 +1,69 @@
+$date
+        2023-Feb-21 12:18:59
+$end
+$version
+        Vivado v2019.1 (64-bit)
+$end
+$timescale
+        1ps
+$end
+$scope module dut $end
+$var reg 8 " i1/char_op1 [7:0] $end
+$var reg 8 * i1/char_op2 [7:0] $end
+$var reg 32 2 \i1/rom[0] [31:0] $end
+$var reg 32 R \i1/rom[1] [31:0] $end
+$var reg 32 r \i1/rom[2] [31:0] $end
+$var reg 32 4" \i1/rom[3] [31:0] $end
+$var reg 32 T" \i1/rom[4] [31:0] $end
+$var reg 32 t" \i1/rom[5]__0 [31:0] $end
+$var reg 32 6# \i1/rom[6] [31:0] $end
+$var reg 32 V# \i1/rom[7] [31:0] $end
+$var reg 32 v# \i1/rom[8] [31:0] $end
+$var reg 32 8$ \i1/rom[9] [31:0] $end
+$var reg 32 X$ \i1/rom[10] [31:0] $end
+$var reg 32 x$ \i1/rom[11] [31:0] $end
+$var reg 32 :% \i1/rom[12] [31:0] $end
+$var reg 32 Z% \i1/rom[13] [31:0] $end
+$var reg 32 z% \i1/rom[14] [31:0] $end
+$var reg 32 <& \i1/rom[15]__0 [31:0] $end
+$var reg 32 \& \i1/rom[16] [31:0] $end
+$var reg 32 |& \i1/rom[17] [31:0] $end
+$var reg 32 >' \i1/rom[18] [31:0] $end
+$var reg 32 ^' \i1/rom[19] [31:0] $end
+$var reg 4 ~' i1/sel [3:0] $end
+$var reg 1 $( _TRIGGER $end
+$var reg 1 %( _WINDOW $end
+$var reg 1 &( _GAP $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b101 "
+b1001 *
+b0 2
+b0 R
+b0 r
+b0 4"
+b0 T"
+b0 t"
+b0 6#
+b0 V#
+b0 v#
+b0 8$
+b0 X$
+b0 x$
+b0 :%
+b0 Z%
+b0 z%
+b0 <&
+b0 \&
+b0 |&
+b0 >'
+b0 ^'
+b0 ~'
+0$(
+1%(
+0&(
+$end
+#512
+1$(
